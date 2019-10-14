@@ -1,0 +1,11 @@
+POST http://localhost:3000/items
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlEwRXhOVUpETUVJMlFUZzJSa1F4UkVFME1FTkNPRFUyTmpSRlJFRkVNVVUxUXpoRk5EQTRPQSJ9.eyJpc3MiOiJodHRwczovL2ttYWtydXRpbi5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTQwMzgwMTIxOTIwODkzMzU0MjAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJpYXQiOjE1NzEwNDk2NTEsImV4cCI6MTU3MTEzNjA1MSwiYXpwIjoidDc3T0trdkFRdWhLaXc3VUVkdnpVQVE3UUo0RUFxWjYifQ.moAyjc0-9ekC-YhONR_9pOb4rYsBp223VKuCLQs0-pb-G7dbsLWdSeE6CePu3tWjIEjDrkhvDvwpM6XscumbrmgXmTmr36EnqGIZeDbLmu488fu3tYYq211w3x5qHzID87L9jquxVjkvdk615n7Ub9EIT5BGlYWpGYkyeWPOPGeOD4oyrRYKr-0vq-8CkMl3tpohITSarwPYATH-jKmnAWd72KkesCW5_u-7njQVVrt4r4z5uMkKY4dO0Bb1A7-EMcAKl2fe3lEf-42uUer7UJd5Xyfo9sdXJKAkBWrYMn_LZf3Rz0geaqxFHGdt8d-xLxVrVZeYjf-ul5ypOBHE-w
+
+{
+    "name": "Sample",
+    "price": 3
+}
+
+###
+GET http://localhost:3000/items
